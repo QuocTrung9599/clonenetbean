@@ -3,7 +3,7 @@
   <title>Database Test</title>
  </head>
  <body>
- <?php echo '<p>Work on Database</p>'; 
+ <?php echo '<p>Work on Database Hi everyone</p>'; 
  
  ?> 
      <a href="ConnectToDB.php" target="_blank" >Connect database</a>
