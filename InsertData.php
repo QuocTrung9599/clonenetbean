@@ -22,7 +22,7 @@ body{
 <li><strong>Full name:</strong></li><li><input type="text" name="fname" /></li>
 <li><strong>Email:</strong></li><li><input type="text" name="email" /></li>
 <li><strong>Class:</strong></li><li><input type="text" name="classname" /></li>
-<li><input type="submit" placeholder="INSERT" /></li>
+<li><input type="submit" name="submit" placeholder="INSERT" /></li>
 </form>
 </ul>
 
