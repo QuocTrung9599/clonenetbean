@@ -14,7 +14,7 @@ list-style: none;
 <h2>Enter data into student table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>Student ID:</li><li><input type="text" name="StudentID" /></li>
+<li>Student ID:</li><li><input type="text" name="stuid" /></li>
 <li>Full Name:</li><li><input type="text" name="fname" /></li>
 <li>Email:</li><li><input type="text" name="email" /></li>
 <li>Class:</li><li><input type="text" name="classname" /></li>
@@ -54,11 +54,11 @@ if($pdo === false){
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
 $sql = "INSERT INTO student(stuid, fname, email, classname)"
-        . " VALUES('$_POST[StudentID]','$_POST[fname]','$_POST[email]','$_POST[classname]')";
+        . " VALUES('$_POST[stuid]','$_POST[fname]','$_POST[email]','$_POST[classname]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[StudentID])) {
-   echo "StudentID must be not null";
+ if (is_null($_POST[stuid])) {
+   echo "stuid must be not null";
  }
  else
  {
