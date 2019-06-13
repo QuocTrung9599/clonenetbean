@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Database Test</title>
+  <title>MyCloud</title>
  </head>
  <body>
  	<style type="text/css">
@@ -15,7 +15,7 @@
  		}
  		.menu {
  			position: relative;
- 			bottom: 300px;
+ 			bottom: 150px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
@@ -24,7 +24,7 @@
  <h3>I'm Hoang Quoc Trung</h3>
  <h3>StudentID: GCD17073</h3>
  <h3>School: Greenwich Da Nang</h3>
- 	<img class="picture" src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg" height="100">
+ 	<img class="picture" src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg" height="250">
  <section class="menu">
  <h2>Some functions with the database:</h2>
  	<br>
