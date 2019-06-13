@@ -21,7 +21,7 @@
  			float: left;
  			border: 1px solid black;
  			position: relative;
- 			bottom: 200px;
+ 			bottom: 800px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
