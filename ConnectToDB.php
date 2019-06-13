@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+	<style type="text/css">
+ 		body{
+ 			width: 100%;
+ 			text-align: center;
+ 			background: pink;
+ 		}
+ 	</style>
 <h1>DATABASE CONNECTION</h1>
 
 <?php
