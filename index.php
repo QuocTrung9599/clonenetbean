@@ -6,24 +6,34 @@
  	<style type="text/css">
  		body{
  			width: 100%;
- 			text-align: center;
  			background: pink;
+
+ 		}
+ 		.picture {
+ 			width: 80%;
+ 			position: relative;
+ 		}
+ 		.menu {
+ 			position: relative;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
  
  ?>
- <h3>Name Hoang Quoc Trung</h3>
+ <h3>I'm Hoang Quoc Trung</h3>
  <h3>StudentID: GCD17073</h3>
  <h3>School: Greenwich Da Nang</h3>
+ 	<img class="picture" src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg">
  <h2>Some functions with the database:</h2>
-     <h2>CONNECT DATABASE</h2><a href="ConnectToDB.php" target="_blank" >Click here</a>
+ 	<section class="menu">
+ 	<br>
+     <strong>CONNECT DATABASE</strong><a href="ConnectToDB.php" target="_blank" >Click here</a>
      <br/>
-     <h2>INSERT DATA TO THE DATABASE</h2><a href="InsertData.php" target="_blank" >Click here</a>
+     <strong>INSERT DATA TO THE DATABASE</strong><a href="InsertData.php" target="_blank" >Click here</a>
      <br/>
-     <h2>UPDATE DATA TO THE DATABASE</h2><a href="UpdateData.php" target="_blank" >Click here</a> 
+     <strong>UPDATE DATA TO THE DATABASE</strong><a href="UpdateData.php" target="_blank" >Click here</a> 
      <br/>
-     <h2>DELETE DATA TO THE DATABASE</h2><a href="DeleteData.php" target="_blank" >Click here</a> 
-
+     <strong>DELETE DATA TO THE DATABASE</strong><a href="DeleteData.php" target="_blank" >Click here</a> 
+    </section>
  </body>
 </html>
