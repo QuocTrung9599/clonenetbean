@@ -10,11 +10,13 @@
 
  		}
  		.picture {
- 			width: 80%;
+ 			width: 50%;
  			position: relative;
+
  		}
  		.menu {
  			position: relative;
+ 			bottom: 150px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
