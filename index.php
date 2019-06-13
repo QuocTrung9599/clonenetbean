@@ -9,9 +9,8 @@
 
  		}
  		.picture {
- 			width: 70%;
+ 			width: 100%;
  			position: relative;
- 			height: 300px;
  			float: right;
  		}
  		.menu {
@@ -19,7 +18,7 @@
  			position: relative;
  			float: left;
  			border: 1px solid black;
- 			bottom: 200px;
+ 			bottom: 220px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
