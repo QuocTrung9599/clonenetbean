@@ -5,14 +5,13 @@
  <body>
  	<style type="text/css">
  		body{
- 			width: 100%;
  			background: pink;
 
  		}
  		.picture {
  			width: 70%;
  			position: relative;
- 			height: 400px;
+ 			height: 300px;
  			float: right;
  		}
  		.menu {
@@ -20,6 +19,7 @@
  			position: relative;
  			float: left;
  			border: 1px solid black;
+ 			bottom: 200px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
