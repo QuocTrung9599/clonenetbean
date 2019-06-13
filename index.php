@@ -14,15 +14,12 @@
  		}
  		.picture {
  			width: 70%;
- 			position: relative;
  			float: right;
  		}
  		.menu {
  			width: 30%;
- 			position: relative;
  			float: left;
  			border: 1px solid black;
- 			bottom: 220px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
