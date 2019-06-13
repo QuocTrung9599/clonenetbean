@@ -3,7 +3,7 @@
   <title>Database Test</title>
  </head>
  <body>
- <?php echo '<p>Hi, This is first clond apd</p>'; 
+ <?php echo '<p>Hi, This is first clond app</p>'; 
  
  ?> 
      <a href="ConnectToDB.php" target="_blank" >Connect database</a>
