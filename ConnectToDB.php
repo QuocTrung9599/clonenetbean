@@ -4,7 +4,6 @@
 	<style type="text/css">
  		body{
  			width: 100%;
- 			text-align: center;
  			background: pink;
  		}
  	</style>
@@ -12,17 +11,17 @@
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud computing class 0818!";
+echo "HELLO CLOUD COMPUTING CLASS 0818 ^^";
 ?>
 
 <?php
 
 
 if (empty(getenv("DATABASE_URL"))){
-    echo '<p>The DB does not exist</p>';
+    echo '<p><strong>THE DATABASE DOES NOT EXIST</strong></p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
-     echo '<p>The DB exists</p>';
+     echo '<p><strong>THE DATABASE EXIST</strong></p>';
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
@@ -41,7 +40,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>Students information:</p>';
+echo '<p>INFORMATION OF STUDENT:</p>';
 foreach ($resultSet as $row) {
 	echo $row['stuid'];
         echo "    ";
