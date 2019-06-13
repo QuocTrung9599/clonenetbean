@@ -9,7 +9,7 @@
 
  		}
  		.picture {
- 			width: 100%;
+ 			width: 40px;
  			position: relative;
  			float: right;
  		}
@@ -18,7 +18,7 @@
  			position: relative;
  			float: left;
  			border: 1px solid black;
- 			bottom: 220px;
+ 			bottom: 250px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
