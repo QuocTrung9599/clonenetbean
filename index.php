@@ -20,7 +20,7 @@
  			width: 30%;
  			float: left;
  			border: 1px solid black;
- 			margin-bottom: 200px;
+ 			position: relative;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
