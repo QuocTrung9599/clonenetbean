@@ -9,7 +9,6 @@ list-style: none;
 }
 body{
  			width: 100%;
- 			text-align: center;
  			background: pink;
  		}
 </style>
@@ -19,11 +18,11 @@ body{
 <h2>Enter data into student table:</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li><h2>Student ID:</h2></li><li><input type="text" name="stuid" /></li>
-<li><h2>Full name:</h2></li><li><input type="text" name="fname" /></li>
-<li><h2>Email:</h2></li><li><input type="text" name="email" /></li>
-<li><h2>Class:</h2></li><li><input type="text" name="classname" /></li>
-<li><input type="submit" /></li>
+<li><strong>Student ID:</strong></li><li><input type="text" name="stuid" /></li>
+<li><strong>Full name:</strong></li><li><input type="text" name="fname" /></li>
+<li><strong>Email:</strong></li><li><input type="text" name="email" /></li>
+<li><strong>Class:</strong></li><li><input type="text" name="classname" /></li>
+<li><input type="submit" /><strong>INSERT</strong></li>
 </form>
 </ul>
 
