@@ -8,8 +8,12 @@
  			background: pink;
 
  		}
+ 		#content {
+ 			width: 100%;
+ 			margin: 0 auto;
+ 		}
  		.picture {
- 			width: 40px;
+ 			width: 70%;
  			position: relative;
  			float: right;
  		}
@@ -18,7 +22,7 @@
  			position: relative;
  			float: left;
  			border: 1px solid black;
- 			bottom: 250px;
+ 			bottom: 220px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
