@@ -12,10 +12,10 @@
  		.picture {
  			width: 50%;
  			position: relative;
+ 			height: 200px;
  		}
  		.menu {
  			position: relative;
- 			bottom: 150px;
  		}
  	</style>
  <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
@@ -24,7 +24,7 @@
  <h3>I'm Hoang Quoc Trung</h3>
  <h3>StudentID: GCD17073</h3>
  <h3>School: Greenwich Da Nang</h3>
- 	<img class="picture" src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg" height="250">
+ 	<img class="picture" src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg">
  <section class="menu">
  <h2>Some functions with the database:</h2>
  	<br>
