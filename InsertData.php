@@ -58,7 +58,7 @@ $sql = "INSERT INTO student(stuid, fname, email, classname)"
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[stuid])) {
-   echo "stuid must be not null";
+   echo "Student must be not null";
  }
  else
  {
