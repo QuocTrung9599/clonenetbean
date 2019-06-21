@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>MyCloud</title>
+  <title>Chun'sCloud</title>
  </head>
  <body>
  	<style type="text/css">
