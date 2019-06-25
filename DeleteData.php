@@ -2,11 +2,17 @@
 <html>
 <body>
 
-<h1>INSERT DATA TO DATABASE</h1>
+<h1>DELETE DATA TO DATABASE</h1>
+<ul>
+    <form name="DeleteData" action="DeleteData.php" method="POST" >
+<li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
 
+<li><input type="submit" value="DELETE" /></li>
+</form>
+</ul>
 <?php
-ini_set('display_errors', 1);
-echo "Insert database!";
+// ini_set('display_errors', 1);
+// echo "Insert database!";
 ?>
 
 <?php
@@ -28,7 +34,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE FROM student WHERE stuid = 'SV02'";
+$sql = "DELETE FROM student WHERE empid = '$_POST[empid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record deleted successfully.";
