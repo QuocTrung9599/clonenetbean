@@ -5,7 +5,7 @@
  <body>
  	<style type="text/css">
  		body{
- 			background: pink;
+ 			background: #ADD8E6;
 
  		}
  		#content {
@@ -21,12 +21,11 @@
  			float: left;
  			border: 1px solid black;
  			
- 			bottom: 550px;
+ 			bottom: 100px;
  		}
  	</style>
- <?php echo '<p><strong>HELLO EVERYONE, THIS IS ATNS CLOUD APP</strong></p>'; 
- 
- ?>
+ <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>
+
  
  <div id="contnent">
  	<div class="picture">
