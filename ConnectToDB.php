@@ -34,7 +34,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "SELECT * FROM student ORDER BY stuid";
+$sql = "SELECT * FROM employee ORDER BY empid";
 $stmt = $pdo->prepare($sql);
 //Thiết lập kiểu dữ liệu trả về
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
@@ -42,13 +42,13 @@ $stmt->execute();
 $resultSet = $stmt->fetchAll();
 echo '<p>INFORMATION OF STUDENT:</p>';
 foreach ($resultSet as $row) {
-	echo $row['stuid'];
+	echo $row['empid'];
         echo "    ";
-        echo $row['fname'];
+        echo $row['empname'];
         echo "    ";
-        echo $row['email'];
+        echo $row['empemail'];
         echo "    ";
-        echo $row['classname'];
+        echo $row['braid'];
         echo "<br/>";
 }
 
