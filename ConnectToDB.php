@@ -5,7 +5,7 @@
     body{
       background: #ADD8E6;
 </style>
-<h1>DATABASE CONNECTION</h1>
+<h1>VIEW DATABASE </h1>
 <form>
          <button type="submit" formaction="index.php">HOME</button>
 </form>
@@ -18,10 +18,10 @@ echo "HELLO EVERYONE";
 
 
 if (empty(getenv("DATABASE_URL"))){
-    echo '<p>THE DATABASE DOES NOT EXIST</p>';
+    echo '<p>The database not exist</p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
-     echo '<p><strong>THE DATABASE EXIST</strong></p>';
+     echo '<p>The database exist</p>';
      echo getenv("dbname");
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
