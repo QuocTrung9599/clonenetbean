@@ -40,7 +40,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>INFORMATION OF STUDENT:</p>';
+echo '<p>INFORMATION OF EMPLOYEE:</p>';
 foreach ($resultSet as $row) {
 	echo $row['empid'];
         echo "    ";
