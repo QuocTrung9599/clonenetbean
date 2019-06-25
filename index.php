@@ -8,6 +8,9 @@
  			background: #ADD8E6;
 
  		}
+ 		#infor {
+ 			text-align: center;
+ 		}
  		#content {
  			width: 100%;
  			margin: 0 auto;
@@ -24,16 +27,15 @@
  			bottom: 550px;
  		}
  	</style>
- <?php echo '<p><strong>HELLO EVERYONE, THIS IS ATNS CLOUD APP</strong></p>'; ?>
+ <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>
  <br>
+ <div id="infor">
  <h2><strong>Dirrector:</strong> No name </h2>
  <h2><strong>Number ID:</strong> No name </h2>
  <h2><strong>Branch   :</strong> No name </h2>
+ </div>
  <br>
  <div id="contnent">
- 	<div class="picture">
- 	<img src="https://sc01.alicdn.com/kf/HTB1u3cpsLuSBuNkHFqDq6xfhVXaG/Customized-vegetable-bean-plush-toy-cute-soft.jpg_350x350.jpg">
- 	</div>
  	<div class="menu">
  	<h2>SOME FUNCTIONS DEMO: </h2>
  	<br>
