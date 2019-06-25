@@ -32,9 +32,9 @@
  	<img src="https://sc01.alicdn.com/kf/HTB1u3cpsLuSBuNkHFqDq6xfhVXaG/Customized-vegetable-bean-plush-toy-cute-soft.jpg_350x350.jpg">
  	</div>
  	<div class="menu">
- 	<h2>Some functions with the database:</h2>
+ 	<h2>SOME DEMO FUNCTIONS:</h2>
  	<br>
-     <strong>CONNECT DATABASE</strong><a href="ConnectToDB.php" target="_blank" > Click here</a>
+     <strong>VIEW DATABASE</strong><a href="ConnectToDB.php" target="_blank" > Click here</a>
      <br/>
      <strong>INSERT DATA TO THE DATABASE</strong><a href="InsertData.php" target="_blank" > Click here</a>
      <br/>
