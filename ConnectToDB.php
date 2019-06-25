@@ -48,7 +48,7 @@ foreach ($resultSet as $row) {
         echo "    ";
         echo $row['empemail'];
         echo "    ";
-        echo $row['braid'];
+        echo $row['empphone'];
         echo "<br/>";
 }
 
