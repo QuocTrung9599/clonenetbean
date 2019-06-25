@@ -15,13 +15,13 @@ body{
 </head>
 <body>
 <h1>INSERT DATA TO DATABASE</h1>
-<h2>Enter data into student table:</h2>
+<h2>Enter data into employee table:</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li><strong>Student ID:</strong></li><li><input type="text" name="stuid" /></li>
-<li><strong>Full name:</strong></li><li><input type="text" name="fname" /></li>
-<li><strong>Email:</strong></li><li><input type="text" name="email" /></li>
-<li><strong>Class:</strong></li><li><input type="text" name="classname" /></li>
+<li><strong>Employee ID:</strong></li><li><input type="text" name="empid" /></li>
+<li><strong>Full name:</strong></li><li><input type="text" name="empname" /></li>
+<li><strong>Email:</strong></li><li><input type="text" name="empemail" /></li>
+<li><strong>Branch ID:</strong></li><li><input type="text" name="braid" /></li>
 <li><input type="submit" value="INSERT" /></li>
 </form>
 </ul>
@@ -57,11 +57,11 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO student(stuid, fname, email, classname)"
-        . " VALUES('$_POST[stuid]','$_POST[fname]','$_POST[email]','$_POST[classname]')";
+$sql = "INSERT INTO employee(empid, empname, empemail, braid)"
+        . " VALUES('$_POST[empid]','$_POST[empname]','$_POST[empemail]','$_POST[braid]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
- if (is_null($_POST[stuid])) {
+ if (is_null($_POST[empid])) {
    echo "Student must be not null";
  }
  else
