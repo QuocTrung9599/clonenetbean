@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Chun'sCloud</title>
+  <title>ATN'sCloud</title>
  </head>
  <body>
  	<style type="text/css">
@@ -24,20 +24,20 @@
  			bottom: 550px;
  		}
  	</style>
- <?php echo '<p><strong>HELLO EVERYONE, THIS IS SECOND CLOUD APP</strong></p>'; 
+ <?php echo '<p><strong>HELLO EVERYONE, THIS IS ATNS CLOUD APP</strong></p>'; 
  
  ?>
- <h3>I'm Hoang Quoc Trung</h3>
- <h3>StudentID: GCD17073</h3>
- <h3>School: Greenwich Da Nang</h3>
+ <h3>Dirrector: ... </h3>
+ <h3>Number ID: ... </h3>
+ <h3>Branch   : ... </h3>
  <div id="contnent">
  	<div class="picture">
  	<img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg">
  	</div>
  	<div class="menu">
- 	<h2>Some functions with the database:</h2>
+ 	<h2>SOME FUNCTIONS DEMO: </h2>
  	<br>
-     <strong>CONNECT DATABASE</strong><a href="ConnectToDB.php" target="_blank" > Click here</a>
+     <strong>VIEW DATABASE</strong><a href="ConnectToDB.php" target="_blank" > Click here</a>
      <br/>
      <strong>INSERT DATA TO THE DATABASE</strong><a href="InsertData.php" target="_blank" > Click here</a>
      <br/>
