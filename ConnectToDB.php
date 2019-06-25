@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<style type="text/css">
- 		body{
- 			width: 100%;
- 			background: pink;
- 		}
- 	</style>
+<style type="text/css">
+    body{
+      background: #ADD8E6;
+</style>
 <h1>DATABASE CONNECTION</h1>
 
 <?php
