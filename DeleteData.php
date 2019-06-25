@@ -34,7 +34,7 @@ if (empty(getenv("DATABASE_URL"))){
    ));
 }  
 
-$sql = "DELETE FROM student WHERE empid = '$_POST[empid]'";
+$sql = "DELETE FROM employee WHERE empid = '$_POST[empid]'";
 $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record deleted successfully.";
