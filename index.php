@@ -27,12 +27,12 @@
  			bottom: 550px;
  		}
  	</style>
- <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>'; 
- <div id="infor">
+ <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>
+ <br>
  <h2><strong>Dirrector:</strong> No name </h2>
  <h2><strong>Number ID:</strong> No name </h2>
  <h2><strong>Branch   :</strong> No name </h2>
- </div>
+ <br>
  <div id="contnent">
  	<div class="picture">
  	<img src="https://sc01.alicdn.com/kf/HTB1u3cpsLuSBuNkHFqDq6xfhVXaG/Customized-vegetable-bean-plush-toy-cute-soft.jpg_350x350.jpg">
@@ -41,11 +41,11 @@
  	<h3>SOME FUNCTIONS DEMO: </h3>
  	<br>
      <strong>VIEW DATABASE</strong><a href="ConnectToDB.php" target="_blank" > Click here</a>
-     <br/>
+     <br>
      <strong>INSERT DATA TO THE DATABASE</strong><a href="InsertData.php" target="_blank" > Click here</a>
-     <br/>
+     <br>
      <strong>UPDATE DATA TO THE DATABASE</strong><a href="UpdateData.php" target="_blank" > Click here</a> 
-     <br/>
+     <br>
      <strong>DELETE DATA TO THE DATABASE</strong><a href="DeleteData.php" target="_blank" > Click here</a> 
      </div>
  </div>
