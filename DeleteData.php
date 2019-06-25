@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<style type="text/css">
+    body{
+      background: #ADD8E6;
+</style>
 <h1>DELETE DATA TO DATABASE</h1>
 <form>
          <button type="submit" formaction="index.php">HOME</button>
