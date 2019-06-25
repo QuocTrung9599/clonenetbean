@@ -11,14 +11,14 @@
 </form>
 <?php
 ini_set('display_errors', 1);
-echo "HELLO CLOUD COMPUTING CLASS 0818 ^^";
+echo "HELLO EVERYONE";
 ?>
 
 <?php
 
 
 if (empty(getenv("DATABASE_URL"))){
-    echo '<p><strong>THE DATABASE DOES NOT EXIST</strong></p>';
+    echo '<p>THE DATABASE DOES NOT EXIST</p>';
     $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
 }  else {
      echo '<p><strong>THE DATABASE EXIST</strong></p>';
