@@ -5,8 +5,11 @@
  <body>
  	<style type="text/css">
  		body{
- 			background: pink;
+ 			background-image: url(https://content.datacom.vn/Upload/Images/Content/dai-ly-ve-may-bay-online-23-1068x531.jpg);
 
+ 		}
+ 		#infor {
+ 			text-align: center;
  		}
  		#content {
  			width: 100%;
@@ -24,15 +27,15 @@
  			bottom: 550px;
  		}
  	</style>
- <?php echo '<p><strong>HELLO EVERYONE, THIS IS ATNS CLOUD APP</strong></p>'; 
- 
- ?>
- <h3>Dirrector: ... </h3>
- <h3>Number ID: ... </h3>
- <h3>Branch   : ... </h3>
+ <?php echo '<p><strong>HELLO EVERYONE, THIS IS ATNS CLOUD APP</strong></p>'; ?>
+ <div id="infor">
+ <h2><strong>Dirrector:</strong> No name </h2>
+ <h2><strong>Number ID:</strong> No name </h2>
+ <h2><strong>Branch   :</strong> No name </h2>
+ </div>
  <div id="contnent">
  	<div class="picture">
- 	<img src="https://img2.thuthuatphanmem.vn/uploads/2019/01/05/anh-doi-de-thuong-1_042809591.jpg">
+ 	<img src="https://cdn57.androidauthority.net/wp-content/uploads/2015/11/buy-sell-phone-e1496669730853-840x590.jpg">
  	</div>
  	<div class="menu">
  	<h2>SOME FUNCTIONS DEMO: </h2>
