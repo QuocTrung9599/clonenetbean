@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<style type="text/css">
+    body{
+      background: #ADD8E6;
+</style>
 <h1>UPDATE DATA TO DATABASE</h1>
+<form>
+         <button type="submit" formaction="index.php">HOME</button>
+</form>
 <ul>
  <form name="UpdateData" action="UpdateData.php" method="POST" >
 <li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
@@ -12,6 +18,7 @@
 <li><input type="submit" value="UPDATE" /></li>
 </form>
 </ul>
+<strong><a href="index.php" target="_blank" > HOME</a></strong>
 <?php
 // ini_set('display_errors', 1);
 // echo "Update database!";
