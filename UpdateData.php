@@ -2,11 +2,19 @@
 <html>
 <body>
 
-<h1>INSERT DATA TO DATABASE</h1>
-
+<h1>UPDATE DATA TO DATABASE</h1>
+<ul>
+ <form name="UpdateData" action="UpdateData.php" method="POST" >
+<li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
+<li><strong>Full name:</strong></li>    <li><input type="text" name="empname" /></li>
+<li><strong>empemail:</strong></li><li>    <input type="text" name="empempemail" /></li>
+<li><strong>Phone number:</strong></li>    <li><input type="text" name="empphone" /></li>
+<li><input type="submit" value="UPDATE" /></li>
+</form>
+</ul>
 <?php
-ini_set('display_errors', 1);
-echo "Update database!";
+// ini_set('display_errors', 1);
+// echo "Update database!";
 ?>
 
 <?php
@@ -41,7 +49,7 @@ if (empty(getenv("DATABASE_URL"))){
 
         // return the number of row affected
         //return $stmt->rowCount();
-$sql = "UPDATE student SET fname = 'Lee Chan Do' WHERE stuid = 'SV02'";
+$sql = "UPDATE employee SET empname = '$_POST[empname]', empemail = '$_POST[empemail]', empphone = '$_POST[empphone]' WHERE empid = '$_POST[empid]'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
     echo "Record updated successfully.";
