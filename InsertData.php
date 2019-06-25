@@ -18,10 +18,10 @@ body{
 <h2>Enter data into employee table:</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li><strong>Employee ID:</strong></li><li><input type="text" name="empid" /></li>
-<li><strong>Full name:</strong></li><li><input type="text" name="empname" /></li>
-<li><strong>Email:</strong></li><li><input type="text" name="empemail" /></li>
-<li><strong>Branch ID:</strong></li><li><input type="text" name="braid" /></li>
+<li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
+<li><strong>Full name:</strong></li>    <li><input type="text" name="empname" /></li>
+<li><strong>Email:</strong></li><li>    <input type="text" name="empemail" /></li>
+<li><strong>Branch ID:</strong></li>    <li><input type="text" name="braid" /></li>
 <li><input type="submit" value="INSERT" /></li>
 </form>
 </ul>
@@ -48,21 +48,12 @@ if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
 
-//Khởi tạo Prepared Statement
-//$stmt = $pdo->prepare('INSERT INTO student (stuid, fname, email, classname) values (:id, :name, :email, :class)');
-
-//$stmt->bindParam(':id','SV03');
-//$stmt->bindParam(':name','Ho Hong Linh');
-//$stmt->bindParam(':email', 'Linhhh@fpt.edu.vn');
-//$stmt->bindParam(':class', 'GCD018');
-//$stmt->execute();
-//$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO employee(empid, empname, empemail, braid)"
+$sql = "INSERT INTO employee(empid, empid, empid, braid)"
         . " VALUES('$_POST[empid]','$_POST[empname]','$_POST[empemail]','$_POST[braid]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[empid])) {
-   echo "Student must be not null";
+   echo "Employee must be not null";
  }
  else
  {
