@@ -21,7 +21,7 @@ body{
 <li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
 <li><strong>Full name:</strong></li>    <li><input type="text" name="empname" /></li>
 <li><strong>Email:</strong></li><li>    <input type="text" name="empemail" /></li>
-<li><strong>Branch ID:</strong></li>    <li><input type="text" name="braid" /></li>
+<li><strong>Phone number:</strong></li>    <li><input type="text" name="empphone" /></li>
 <li><input type="submit" value="INSERT" /></li>
 </form>
 </ul>
@@ -49,7 +49,7 @@ if($pdo === false){
 }
 
 $sql = "INSERT INTO employee(empid, empid, empid, braid)"
-        . " VALUES('$_POST[empid]','$_POST[empname]','$_POST[empemail]','$_POST[braid]')";
+        . " VALUES('$_POST[empid]','$_POST[empname]','$_POST[empemail]','$_POST[empphone]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
  if (is_null($_POST[empid])) {
