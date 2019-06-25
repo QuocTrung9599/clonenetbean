@@ -20,7 +20,7 @@
  			width: 30%;
  			float: left;
  			border: 1px solid black;
- 			position: relative;
+ 			
  			bottom: 550px;
  		}
  	</style>
