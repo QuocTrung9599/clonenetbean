@@ -11,7 +11,7 @@
 </form>
 <?php
 ini_set('display_errors', 1);
-echo "HELLO EVERYONE";
+echo "ATNs SYSTEM";
 ?>
 
 <?php
