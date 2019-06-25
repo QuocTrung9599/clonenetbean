@@ -3,6 +3,9 @@
 <body>
 
 <h1>DELETE DATA TO DATABASE</h1>
+<form>
+         <button type="submit" formaction="index.php">HOME</button>
+</form>
 <ul>
     <form name="DeleteData" action="DeleteData.php" method="POST" >
 <li><strong>Employee ID:</strong></li>  <li><input type="text" name="empid" /></li>
