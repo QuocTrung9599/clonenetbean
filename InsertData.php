@@ -10,6 +10,9 @@
 </head>
 <body>
 <h1>INSERT DATA TO DATABASE</h1>
+<form>
+         <button type="submit" formaction="index.php">HOME</button>
+</form>
 <h2>Enter data into employee table:</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
