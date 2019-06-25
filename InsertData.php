@@ -3,14 +3,9 @@
     <head>
 <title>Insert data to PostgreSQL with php - creating a simple web application</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<style>
-li {
-list-style: none;
-}
-body{
- 			width: 100%;
- 			background: pink;
- 		}
+<style type="text/css">
+    body{
+      background: #ADD8E6;
 </style>
 </head>
 <body>
