@@ -51,5 +51,6 @@ foreach ($resultSet as $row) {
 }
 
 ?>
+<strong><a href="index.php" target="_blank" > HOME</a></strong>
 </body>
 </html>
