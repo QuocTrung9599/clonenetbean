@@ -6,7 +6,9 @@
       background: #ADD8E6;
 </style>
 <h1>DATABASE CONNECTION</h1>
-
+<form>
+         <button type="submit" formaction="index.php">HOME</button>
+</form>
 <?php
 ini_set('display_errors', 1);
 echo "HELLO CLOUD COMPUTING CLASS 0818 ^^";
@@ -51,6 +53,5 @@ foreach ($resultSet as $row) {
 }
 
 ?>
-<strong><a href="index.php" target="_blank" > HOME</a></strong>
 </body>
 </html>
