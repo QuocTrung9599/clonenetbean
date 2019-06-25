@@ -18,7 +18,7 @@
 <li><input type="submit" value="UPDATE" /></li>
 </form>
 </ul>
-<strong><a href="index.php" target="_blank" > HOME</a></strong>
+
 <?php
 // ini_set('display_errors', 1);
 // echo "Update database!";
