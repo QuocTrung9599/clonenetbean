@@ -48,7 +48,7 @@ if($pdo === false){
      echo "ERROR: Could not connect Database";
 }
 
-$sql = "INSERT INTO employee(empid, empid, empid, empphone)"
+$sql = "INSERT INTO employee(empid, empname, empemail, empphone)"
         . " VALUES('$_POST[empid]','$_POST[empname]','$_POST[empemail]','$_POST[empphone]')";
 $stmt = $pdo->prepare($sql);
 //$stmt->execute();
