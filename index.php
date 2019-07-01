@@ -24,10 +24,10 @@
  			bottom: 100px;
  		}
  	</style>
- <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>
+ <h1>HELLO EVERYONEd, THIS IS ATNS CLOUD APP</h1>
 
  
- <div id="contnent">
+ <div id="content">
  	<div class="picture">
  	<img src="https://sc01.alicdn.com/kf/HTB1u3cpsLuSBuNkHFqDq6xfhVXaG/Customized-vegetable-bean-plush-toy-cute-soft.jpg_350x350.jpg">
  	</div>
