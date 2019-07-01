@@ -24,7 +24,7 @@
  			bottom: 100px;
  		}
  	</style>
- <h1>HELLO EVERYONEd, THIS IS ATNS CLOUD APP</h1>
+ <h1>HELLO EVERYONE, THIS IS ATNS CLOUD APP</h1>
 
  
  <div id="content">
